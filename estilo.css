@@ -1,0 +1,74 @@
+body{
+    margin: 0;
+    font-family: monospace;
+    font-size: 17px;
+}
+
+header {
+    background-color: rgb(255, 219, 172);
+    padding: 20px;
+}
+
+header h1 {
+    color: rgb(238, 109, 16);
+}
+
+nav {
+    background: #e2e1e1;
+    padding: 3px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 5px;
+    margin: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;    
+}
+
+.active {
+    font-weight: bold;
+}
+
+.container {
+    border: 2px solid rgb(238, 109, 16);
+    border-radius: 20px;
+    margin: auto;
+    margin-top: 50px;
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.container input {
+    border: 2px solid rgb(238, 109, 16);
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+.botoes {
+    margin-bottom: 15px;
+}
+
+.botoes button {
+    border-radius: 5px;
+    border: 2px solid rgb(238, 109, 16);
+    color:rgb(238, 109, 16);
+    background-color: rgb(255, 219, 172);
+    font-weight: bold;
+    padding: 5px;
+    
+}
+
+.input-vm{
+    background-color: rgb(255, 219, 172);
+}
